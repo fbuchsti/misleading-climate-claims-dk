@@ -205,3 +205,18 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Thesis specific
+
+# Data (Infomedia - cannot be shared)
+data/raw/
+data/processed/
+
+# Trained models
+models/
+
+# Results (optional - remove if you want to share figures)
+results/
+
+# HuggingFace cache
+.cache/
