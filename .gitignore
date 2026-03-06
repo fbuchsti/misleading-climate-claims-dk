@@ -206,9 +206,10 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+
 # Thesis specific
 
-# Data (Infomedia - cannot be shared)
+# Data 
 data/raw/
 data/processed/
 
