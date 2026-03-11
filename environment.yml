@@ -232,4 +232,5 @@ dependencies:
       - typer-slim==0.24.0
       - xxhash==3.6.0
       - yarl==1.22.0
+      - openpyxl
 prefix: /opt/anaconda3/envs/climate-misinfo
