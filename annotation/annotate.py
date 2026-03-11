@@ -1,6 +1,5 @@
 """
 Runs batch annotation over a sampled dataset.
-Safe to interrupt and resume.
 """
 
 import pandas as pd
@@ -9,7 +8,7 @@ from cards_client import classify_text
 from utils import ensure_directory, save_incremental
 
 
-INPUT_PATH = "../data/processed/pilot_sample.parquet"
+INPUT_PATH = "../data/processed/sample_llm_annotation.parquet"
 OUTPUT_PATH = "../data/annotated/annotations.parquet"
 TEXT_COLUMN = "ArticleText"
 ID_COLUMN = "ArticleKey"
@@ -61,7 +60,7 @@ def run_annotation():
                 "completion_tokens": output["completion_tokens"]
             })
 
-            # Save after each article (important!)
+            # Save after each article
             save_incremental(results, OUTPUT_PATH)
 
             # Small pause to stay safe under rate limits
