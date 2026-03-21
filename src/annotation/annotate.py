@@ -8,8 +8,8 @@ from cards_client import classify_text
 from utils import ensure_directory, save_incremental
 
 
-INPUT_PATH = "../data/processed/sample_llm_annotation.parquet"
-OUTPUT_PATH = "../data/annotated/annotations.parquet"
+INPUT_PATH = "../data/interim/sample_llm_annotation.parquet"
+OUTPUT_PATH = "../data/annotated/llm_annotations.parquet"
 TEXT_COLUMN = "ArticleText"
 ID_COLUMN = "ArticleKey"
 

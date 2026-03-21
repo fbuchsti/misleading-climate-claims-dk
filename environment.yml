@@ -155,7 +155,7 @@ dependencies:
   - python-fastjsonschema=2.21.2
   - python-json-logger=4.0.0
   - python-tzdata=2025.3
-  - pytorch=2.5.1
+  - pytorch=2.6.0
   - pytz=2025.2
   - pyyaml=6.0.3
   - pyzmq=27.1.0
@@ -183,7 +183,6 @@ dependencies:
   - tk=8.6.15
   - tomli=2.4.0
   - torchaudio=2.5.1
-  - torchvision=0.20.1
   - tornado=6.5.4
   - traitlets=5.14.3
   - typing-extensions=4.15.0
@@ -227,10 +226,12 @@ dependencies:
       - shellingham==1.5.4
       - tokenizers==0.22.2
       - tqdm==4.67.3
-      - transformers==5.2.0
+      - transformers==4.41.2
       - typer==0.24.1
       - typer-slim==0.24.0
       - xxhash==3.6.0
       - yarl==1.22.0
       - openpyxl
+      - iterative-stratification
+      - accelerate>=0.21.0
 prefix: /opt/anaconda3/envs/climate-misinfo
