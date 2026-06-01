@@ -212,6 +212,8 @@ __marimo__/
 # Data 
 data/raw/
 data/processed/
+data/interim/
+data/annotated/
 
 # Trained models
 \models
