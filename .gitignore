@@ -222,4 +222,4 @@ data/annotated/
 \results
 
 # HuggingFace cache
-.cache/
+.cache/.DS_Store
