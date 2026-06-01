@@ -214,6 +214,7 @@ data/raw/
 data/processed/
 data/interim/
 data/annotated/
+\annotated
 
 # Trained models
 \models
