@@ -214,10 +214,9 @@ data/raw/
 data/processed/
 
 # Trained models
-models/
+\models
 
-# Results (optional - remove if you want to share figures)
-results/
+\results
 
 # HuggingFace cache
 .cache/
